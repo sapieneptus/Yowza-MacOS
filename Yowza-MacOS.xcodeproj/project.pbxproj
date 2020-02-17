@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E35D78F0FEC421515BAF54D /* Pods_Yowza_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA0D84D0DD5C47E955FD867 /* Pods_Yowza_MacOS.framework */; };
 		893346B823F4249A0069DD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893346B723F4249A0069DD28 /* AppDelegate.swift */; };
 		893346BA23F4249A0069DD28 /* SDKDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893346B923F4249A0069DD28 /* SDKDetailsViewController.swift */; };
 		893346BC23F4249F0069DD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893346BB23F4249F0069DD28 /* Assets.xcassets */; };
 		893346BF23F4249F0069DD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893346BD23F4249F0069DD28 /* Main.storyboard */; };
 		894A940F23FA87580048B48B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A940E23FA87580048B48B /* Config.swift */; };
-		8C24EFE8BDDF48283DBAA36E /* Pods_Yowza_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.release.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		893346B423F4249A0069DD28 /* Yowza-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yowza-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		893346B723F4249A0069DD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		893346B923F4249A0069DD28 /* SDKDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKDetailsViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +24,9 @@
 		893346C023F4249F0069DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893346C123F4249F0069DD28 /* Yowza_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yowza_MacOS.entitlements; sourceTree = "<group>"; };
 		894A940E23FA87580048B48B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.debug.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
-		F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yowza_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA0D84D0DD5C47E955FD867 /* Pods_Yowza_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yowza_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE03B7691BC66B3BB71DADCA /* Pods-Yowza-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.debug.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AE7B34C08A32BFC5B36024B4 /* Pods-Yowza-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.release.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,26 +34,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C24EFE8BDDF48283DBAA36E /* Pods_Yowza_MacOS.framework in Frameworks */,
+				5E35D78F0FEC421515BAF54D /* Pods_Yowza_MacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2075FE0D47E3C185629AD23B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		81527E11DDAFBFE6EAFEBD14 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */,
-				5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */,
+				AE03B7691BC66B3BB71DADCA /* Pods-Yowza-MacOS.debug.xcconfig */,
+				AE7B34C08A32BFC5B36024B4 /* Pods-Yowza-MacOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -64,7 +56,7 @@
 				893346B623F4249A0069DD28 /* Yowza-MacOS */,
 				893346B523F4249A0069DD28 /* Products */,
 				81527E11DDAFBFE6EAFEBD14 /* Pods */,
-				2075FE0D47E3C185629AD23B /* Frameworks */,
+				D5675CD38C01AD2118DAF377 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +82,14 @@
 			path = "Yowza-MacOS";
 			sourceTree = "<group>";
 		};
+		D5675CD38C01AD2118DAF377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA0D84D0DD5C47E955FD867 /* Pods_Yowza_MacOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,12 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 893346C423F4249F0069DD28 /* Build configuration list for PBXNativeTarget "Yowza-MacOS" */;
 			buildPhases = (
-				5CA2DCF89F71797C963F33A7 /* [CP] Check Pods Manifest.lock */,
+				8BEB72EC21F243975ACCADC4 /* [CP] Check Pods Manifest.lock */,
 				893346B023F4249A0069DD28 /* Sources */,
 				893346B123F4249A0069DD28 /* Frameworks */,
 				893346B223F4249A0069DD28 /* Resources */,
-				50FD793690A77A29BD89BD07 /* [CP] Embed Pods Frameworks */,
-				42FD68115095F10E6329B945 /* [CP] Copy Pods Resources */,
+				75A60BB3A64B25AAD5C7915C /* [CP] Embed Pods Frameworks */,
+				E63B51406A4C34352EA8DA57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,24 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42FD68115095F10E6329B945 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50FD793690A77A29BD89BD07 /* [CP] Embed Pods Frameworks */ = {
+		75A60BB3A64B25AAD5C7915C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,7 +176,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CA2DCF89F71797C963F33A7 /* [CP] Check Pods Manifest.lock */ = {
+		8BEB72EC21F243975ACCADC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,6 +196,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63B51406A4C34352EA8DA57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -357,7 +357,7 @@
 		};
 		893346C523F4249F0069DD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */;
+			baseConfigurationReference = AE03B7691BC66B3BB71DADCA /* Pods-Yowza-MacOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
@@ -365,8 +365,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8RXEXFSX5N;
 				ENABLE_HARDENED_RUNTIME = YES;
-				HA_APP_ID = "$(HA_APP_ID)";
-				HA_ENV = "$(HA_ENV)";
+				HA_APP_ID = "$(HOCKEYAPP_APP_ID)";
+				HA_ENV = training;
 				INFOPLIST_FILE = "Yowza-MacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,7 +380,7 @@
 		};
 		893346C623F4249F0069DD28 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */;
+			baseConfigurationReference = AE7B34C08A32BFC5B36024B4 /* Pods-Yowza-MacOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
@@ -388,8 +388,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8RXEXFSX5N;
 				ENABLE_HARDENED_RUNTIME = YES;
-				HA_APP_ID = "$(HA_APP_ID)";
-				HA_ENV = "$(HA_ENV)";
+				HA_APP_ID = "$(HOCKEYAPP_APP_ID)";
+				HA_ENV = "$(HOCKEYAPP_ENV)";
 				INFOPLIST_FILE = "Yowza-MacOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

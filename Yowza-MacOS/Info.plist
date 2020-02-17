@@ -8,10 +8,6 @@
 	<string>$(HA_APP_ID)</string>
 	<key>SUFeedURL</key>
 	<string>https://$(HA_ENV).hockeyapp.net/api/2/apps/$(HA_APP_ID)</string>
-	<key>CFBundleGetInfoString</key>
-	<string></string>
-	<key>CFBundleDisplayName</key>
-	<string></string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
