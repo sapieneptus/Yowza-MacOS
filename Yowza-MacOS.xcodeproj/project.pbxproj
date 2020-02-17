@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893346B823F4249A0069DD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893346B723F4249A0069DD28 /* AppDelegate.swift */; };
+		893346BA23F4249A0069DD28 /* SDKDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893346B923F4249A0069DD28 /* SDKDetailsViewController.swift */; };
+		893346BC23F4249F0069DD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893346BB23F4249F0069DD28 /* Assets.xcassets */; };
+		893346BF23F4249F0069DD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893346BD23F4249F0069DD28 /* Main.storyboard */; };
+		894A940F23FA87580048B48B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A940E23FA87580048B48B /* Config.swift */; };
+		8C24EFE8BDDF48283DBAA36E /* Pods_Yowza_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.release.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		893346B423F4249A0069DD28 /* Yowza-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yowza-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		893346B723F4249A0069DD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893346B923F4249A0069DD28 /* SDKDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKDetailsViewController.swift; sourceTree = "<group>"; };
+		893346BB23F4249F0069DD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893346BE23F4249F0069DD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893346C023F4249F0069DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893346C123F4249F0069DD28 /* Yowza_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yowza_MacOS.entitlements; sourceTree = "<group>"; };
+		894A940E23FA87580048B48B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yowza-MacOS.debug.xcconfig"; path = "Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yowza_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893346B123F4249A0069DD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24EFE8BDDF48283DBAA36E /* Pods_Yowza_MacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2075FE0D47E3C185629AD23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F816F36DF820D34277F5339B /* Pods_Yowza_MacOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81527E11DDAFBFE6EAFEBD14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */,
+				5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		893346AB23F4249A0069DD28 = {
+			isa = PBXGroup;
+			children = (
+				893346B623F4249A0069DD28 /* Yowza-MacOS */,
+				893346B523F4249A0069DD28 /* Products */,
+				81527E11DDAFBFE6EAFEBD14 /* Pods */,
+				2075FE0D47E3C185629AD23B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		893346B523F4249A0069DD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893346B423F4249A0069DD28 /* Yowza-MacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893346B623F4249A0069DD28 /* Yowza-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				893346B723F4249A0069DD28 /* AppDelegate.swift */,
+				893346B923F4249A0069DD28 /* SDKDetailsViewController.swift */,
+				893346BB23F4249F0069DD28 /* Assets.xcassets */,
+				893346BD23F4249F0069DD28 /* Main.storyboard */,
+				893346C023F4249F0069DD28 /* Info.plist */,
+				893346C123F4249F0069DD28 /* Yowza_MacOS.entitlements */,
+				894A940E23FA87580048B48B /* Config.swift */,
+			);
+			path = "Yowza-MacOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893346B323F4249A0069DD28 /* Yowza-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893346C423F4249F0069DD28 /* Build configuration list for PBXNativeTarget "Yowza-MacOS" */;
+			buildPhases = (
+				5CA2DCF89F71797C963F33A7 /* [CP] Check Pods Manifest.lock */,
+				893346B023F4249A0069DD28 /* Sources */,
+				893346B123F4249A0069DD28 /* Frameworks */,
+				893346B223F4249A0069DD28 /* Resources */,
+				50FD793690A77A29BD89BD07 /* [CP] Embed Pods Frameworks */,
+				42FD68115095F10E6329B945 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yowza-MacOS";
+			productName = "Yowza-MacOS";
+			productReference = 893346B423F4249A0069DD28 /* Yowza-MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893346AC23F4249A0069DD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = chrisf.io;
+				TargetAttributes = {
+					893346B323F4249A0069DD28 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 893346AF23F4249A0069DD28 /* Build configuration list for PBXProject "Yowza-MacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893346AB23F4249A0069DD28;
+			productRefGroup = 893346B523F4249A0069DD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893346B323F4249A0069DD28 /* Yowza-MacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893346B223F4249A0069DD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893346BC23F4249F0069DD28 /* Assets.xcassets in Resources */,
+				893346BF23F4249F0069DD28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42FD68115095F10E6329B945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FD793690A77A29BD89BD07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yowza-MacOS/Pods-Yowza-MacOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA2DCF89F71797C963F33A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yowza-MacOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893346B023F4249A0069DD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893346BA23F4249A0069DD28 /* SDKDetailsViewController.swift in Sources */,
+				894A940F23FA87580048B48B /* Config.swift in Sources */,
+				893346B823F4249A0069DD28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		893346BD23F4249F0069DD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893346BE23F4249F0069DD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893346C223F4249F0069DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893346C323F4249F0069DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		893346C523F4249F0069DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A0D5E6D7C01B3D1454A3CD /* Pods-Yowza-MacOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HA_APP_ID = "$(HA_APP_ID)";
+				HA_ENV = "$(HA_ENV)";
+				INFOPLIST_FILE = "Yowza-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.chrisf.Yowza-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		893346C623F4249F0069DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6DBE7DCB617AB1C9C40008 /* Pods-Yowza-MacOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HA_APP_ID = "$(HA_APP_ID)";
+				HA_ENV = "$(HA_ENV)";
+				INFOPLIST_FILE = "Yowza-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.chrisf.Yowza-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893346AF23F4249A0069DD28 /* Build configuration list for PBXProject "Yowza-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893346C223F4249F0069DD28 /* Debug */,
+				893346C323F4249F0069DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893346C423F4249F0069DD28 /* Build configuration list for PBXNativeTarget "Yowza-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893346C523F4249F0069DD28 /* Debug */,
+				893346C623F4249F0069DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893346AC23F4249A0069DD28 /* Project object */;
+}

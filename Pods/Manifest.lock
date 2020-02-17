@@ -1,0 +1,20 @@
+PODS:
+  - HockeySDK-Mac (5.1.1)
+  - Sparkle (1.23.0)
+
+DEPENDENCIES:
+  - HockeySDK-Mac
+  - Sparkle
+
+SPEC REPOS:
+  trunk:
+    - HockeySDK-Mac
+    - Sparkle
+
+SPEC CHECKSUMS:
+  HockeySDK-Mac: 59e49aca86e4ee22c5c6ccc2d66771cfd6087f48
+  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
+
+PODFILE CHECKSUM: 2cd2a88dd12fdf0032918125ffaf0c3046c494eb
+
+COCOAPODS: 1.8.4
