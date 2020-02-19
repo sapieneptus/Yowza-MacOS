@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>HA_ENV</key>
-	<string>$(HA_ENV)</string>
-	<key>HA_APP_ID</key>
-	<string>$(HA_APP_ID)</string>
-	<key>SUFeedURL</key>
-	<string>https://$(HA_ENV).hockeyapp.net/api/2/apps/$(HA_APP_ID)</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -25,9 +17,15 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>HA_APP_ID</key>
+	<string>$(HA_APP_ID)</string>
+	<key>HA_ENV</key>
+	<string>$(HA_ENV)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
@@ -40,5 +38,7 @@
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
+	<key>SUFeedURL</key>
+	<string>https://$(HA_ENV).hockeyapp.net/api/2/apps/$(HA_APP_ID)</string>
 </dict>
 </plist>
