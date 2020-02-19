@@ -17,7 +17,11 @@ class SDKDetailsViewController: NSViewController {
         configDetails.stringValue = configString
         initializeSDK()
     }
-
+    
+    @IBAction func crashButtonClicked(_ sender: NSButton) {
+        BITHockeyManager.shared()?.crashManager.generateTestCrash()
+    }
+    
     func initializeSDK() {
         let config = Config.shared
 
