@@ -363,7 +363,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HA_APP_ID = 2fb11509b3dea2336661d86b03cea984;
@@ -373,7 +373,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.chrisf.Yowza-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -388,7 +388,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Yowza-MacOS/Yowza_MacOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HA_APP_ID = "$(HOCKEYAPP_APP_ID)";
@@ -398,7 +398,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.chrisf.Yowza-MacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

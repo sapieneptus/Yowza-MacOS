@@ -25,6 +25,8 @@ class SDKDetailsViewController: NSViewController {
         BITHockeyManager.shared().logLevel = BITLogLevel.verbose
         BITHockeyManager.shared().serverURL = config.environment.rawValue
 
+        BITHockeyManager.shared().metricsManager.disabled = true
+        
         BITHockeyManager.shared().start()
     }
 }
